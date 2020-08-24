@@ -1,0 +1,8 @@
+{  
+    "provider": "cloudinary",  
+    "providerOptions": {
+      "cloud_name": "ajohnson10209",
+      "api_key": "615126757711538",
+      "api_secret": "8Shmry6Xl-P3LzxsZ5rJN7_DQmQ"  
+    }
+  }
