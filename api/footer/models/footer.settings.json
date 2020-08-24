@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "footers",
+  "info": {
+    "name": "Footer"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Phone_Number": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Social_Media": {
+      "type": "json"
+    },
+    "Copyright": {
+      "type": "string"
+    }
+  }
+}

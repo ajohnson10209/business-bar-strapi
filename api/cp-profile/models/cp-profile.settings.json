@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cp_profiles",
+  "info": {
+    "name": "CP-Profile"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "first_name": {
+      "type": "string"
+    },
+    "last_name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone_number": {
+      "type": "string"
+    },
+    "address_line_1": {
+      "type": "string"
+    },
+    "address_line_2": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "zip_code": {
+      "type": "integer"
+    },
+    "company_name": {
+      "type": "string"
+    },
+    "company_phone": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "client": {
+      "via": "profile",
+      "model": "client"
+    }
+  }
+}

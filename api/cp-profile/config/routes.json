@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/cp-profiles",
+      "handler": "cp-profile.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/cp-profiles/count",
+      "handler": "cp-profile.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/cp-profiles/:id",
+      "handler": "cp-profile.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/cp-profiles",
+      "handler": "cp-profile.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/cp-profiles/:id",
+      "handler": "cp-profile.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/cp-profiles/:id",
+      "handler": "cp-profile.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

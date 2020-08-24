@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clients",
+  "info": {
+    "name": "Client"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Email": {
+      "type": "email"
+    },
+    "Last_Login": {
+      "type": "datetime"
+    },
+    "Last_Name": {
+      "type": "string"
+    },
+    "profile": {
+      "model": "cp-profile",
+      "via": "client"
+    },
+    "First_Name": {
+      "type": "string"
+    },
+    "Password": {
+      "type": "string"
+    },
+    "IsAdmin": {
+      "type": "boolean",
+      "default": false
+    },
+    "questionnaire_answer": {
+      "via": "client",
+      "model": "questionnaire-answers"
+    }
+  }
+}

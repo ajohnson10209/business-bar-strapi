@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "questionnaire_answers",
+  "info": {
+    "name": "Questionnaire-Answers"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Answers": {
+      "type": "json"
+    },
+    "client": {
+      "model": "client",
+      "via": "questionnaire_answer"
+    }
+  }
+}

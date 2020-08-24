@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contacts",
+  "info": {
+    "name": "Contact"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Description": {
+      "type": "text"
+    },
+    "Dates": {
+      "type": "json"
+    },
+    "Phone_Number": {
+      "type": "string"
+    },
+    "Street": {
+      "type": "string"
+    },
+    "City_Zip": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    }
+  }
+}
