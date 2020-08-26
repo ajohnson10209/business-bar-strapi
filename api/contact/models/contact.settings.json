@@ -10,22 +10,28 @@
   },
   "attributes": {
     "Description": {
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "Dates": {
-      "type": "json"
+      "type": "json",
+      "required": true
     },
     "Phone_Number": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "Street": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "City_Zip": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "Email": {
-      "type": "email"
+      "type": "email",
+      "required": true
     }
   }
 }

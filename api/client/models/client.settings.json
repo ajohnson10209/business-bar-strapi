@@ -10,7 +10,8 @@
   },
   "attributes": {
     "Email": {
-      "type": "email"
+      "type": "email",
+      "required": false
     },
     "Last_Login": {
       "type": "datetime"
@@ -33,8 +34,8 @@
       "default": false
     },
     "questionnaire_answer": {
-      "via": "client",
-      "model": "questionnaire-answers"
+      "model": "questionnaire-answers",
+      "via": "client"
     }
   }
 }

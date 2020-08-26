@@ -13,19 +13,23 @@
       "type": "enumeration",
       "enum": [
         "question"
-      ]
+      ],
+      "required": true
     },
     "Question_Text": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "Answer": {
       "type": "enumeration",
       "enum": [
         "answer"
-      ]
+      ],
+      "required": true
     },
     "Answer_Text": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     }
   }
 }

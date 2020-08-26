@@ -13,8 +13,8 @@
       "type": "json"
     },
     "client": {
-      "model": "client",
-      "via": "questionnaire_answer"
+      "via": "questionnaire_answer",
+      "model": "client"
     }
   }
 }
