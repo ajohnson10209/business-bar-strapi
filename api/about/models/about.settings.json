@@ -35,6 +35,17 @@
       ],
       "plugin": "upload",
       "required": true
+    },
+    "Headshot_Size": {
+      "type": "enumeration",
+      "enum": [
+        "default",
+        "thumbnail",
+        "small",
+        "medium",
+        "large"
+      ],
+      "required": true
     }
   }
 }
