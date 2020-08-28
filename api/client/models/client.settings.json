@@ -34,8 +34,8 @@
       "default": false
     },
     "questionnaire_answer": {
-      "model": "questionnaire-answers",
-      "via": "client"
+      "via": "client",
+      "model": "questionnaire-answers"
     }
   }
 }
