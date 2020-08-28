@@ -13,8 +13,13 @@
       "type": "json"
     },
     "client": {
-      "via": "questionnaire_answer",
-      "model": "client"
+      "model": "client",
+      "via": "questionnaire_answer"
+    },
+    "submitted": {
+      "type": "boolean",
+      "default": false,
+      "unique": false
     }
   }
 }
