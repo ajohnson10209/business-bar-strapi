@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/setmore-token",
+      "handler": "setmore-token.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/setmore-token",
+      "handler": "setmore-token.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/setmore-token",
+      "handler": "setmore-token.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

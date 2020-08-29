@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "setmore_tokens",
+  "info": {
+    "name": "Setmore_Token"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "token": {
+      "type": "string",
+      "required": true
+    },
+    "expiration_date": {
+      "type": "biginteger",
+      "required": true
+    }
+  }
+}
