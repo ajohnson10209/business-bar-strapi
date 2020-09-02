@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "payment_items",
+  "info": {
+    "name": "Payment-Items"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "paid": {
+      "type": "boolean",
+      "default": false
+    },
+    "due_date": {
+      "type": "date",
+      "required": true
+    },
+    "amount": {
+      "type": "decimal",
+      "required": true
+    },
+    "client": {
+      "model": "client",
+      "via": "payment_items"
+    }
+  }
+}

@@ -36,6 +36,14 @@
     "questionnaire_answer": {
       "via": "client",
       "model": "questionnaire-answers"
+    },
+    "invoice_items": {
+      "via": "client",
+      "collection": "invoice-items"
+    },
+    "payment_items": {
+      "via": "client",
+      "collection": "payment-items"
     }
   }
 }

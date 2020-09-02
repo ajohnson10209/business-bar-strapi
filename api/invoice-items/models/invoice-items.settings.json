@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "invoice_items",
+  "info": {
+    "name": "Invoice-Items"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "item_name": {
+      "type": "string",
+      "required": true
+    },
+    "item_price": {
+      "type": "float",
+      "required": true
+    },
+    "client": {
+      "model": "client",
+      "via": "invoice_items"
+    }
+  }
+}
