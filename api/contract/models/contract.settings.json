@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contracts",
+  "info": {
+    "name": "Contract"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "link": {
+      "type": "string"
+    },
+    "client": {
+      "model": "client",
+      "via": "contract"
+    },
+    "signed": {
+      "type": "boolean"
+    }
+  }
+}

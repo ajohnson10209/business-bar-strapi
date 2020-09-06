@@ -44,6 +44,10 @@
     "payment_items": {
       "via": "client",
       "collection": "payment-items"
+    },
+    "contract": {
+      "via": "client",
+      "model": "contract"
     }
   }
 }
