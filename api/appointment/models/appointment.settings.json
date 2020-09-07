@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "appointments",
+  "info": {
+    "name": "Appointment"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "client": {
+      "model": "client",
+      "via": "appointments"
+    },
+    "service_name": {
+      "type": "string",
+      "required": true
+    },
+    "first_name": {
+      "type": "string",
+      "required": true
+    },
+    "last_name": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "string",
+      "required": true
+    },
+    "appointment_date": {
+      "type": "date",
+      "required": true
+    },
+    "appointment_time": {
+      "type": "time",
+      "required": true
+    }
+  }
+}

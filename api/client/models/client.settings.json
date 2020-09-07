@@ -48,6 +48,10 @@
     "contract": {
       "via": "client",
       "model": "contract"
+    },
+    "appointments": {
+      "via": "client",
+      "collection": "appointment"
     }
   }
 }
