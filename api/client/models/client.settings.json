@@ -34,24 +34,28 @@
       "default": false
     },
     "questionnaire_answer": {
-      "via": "client",
-      "model": "questionnaire-answers"
+      "model": "questionnaire-answers",
+      "via": "client"
     },
     "invoice_items": {
-      "via": "client",
-      "collection": "invoice-items"
+      "collection": "invoice-items",
+      "via": "client"
     },
     "payment_items": {
-      "via": "client",
-      "collection": "payment-items"
+      "collection": "payment-items",
+      "via": "client"
     },
     "contract": {
-      "via": "client",
-      "model": "contract"
+      "model": "contract",
+      "via": "client"
     },
     "appointments": {
-      "via": "client",
-      "collection": "appointment"
+      "collection": "appointment",
+      "via": "client"
+    },
+    "stripe_customer_id": {
+      "type": "string",
+      "required": true
     }
   }
 }

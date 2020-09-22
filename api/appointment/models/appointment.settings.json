@@ -10,8 +10,8 @@
   },
   "attributes": {
     "client": {
-      "model": "client",
-      "via": "appointments"
+      "via": "appointments",
+      "model": "client"
     },
     "service_name": {
       "type": "string",
