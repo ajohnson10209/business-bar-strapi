@@ -13,8 +13,8 @@
       "type": "string"
     },
     "client": {
-      "model": "client",
-      "via": "contract"
+      "via": "contract",
+      "model": "client"
     },
     "signed": {
       "type": "boolean"
