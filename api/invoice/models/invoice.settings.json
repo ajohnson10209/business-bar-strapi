@@ -15,7 +15,7 @@
     },
     "client": {
       "model": "client",
-      "via": "invoice"
+      "via": "invoices"
     },
     "hosted_invoice_url": {
       "type": "string",
