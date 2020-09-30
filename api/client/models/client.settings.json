@@ -37,14 +37,6 @@
       "model": "questionnaire-answers",
       "via": "client"
     },
-    "invoice_items": {
-      "collection": "invoice-items",
-      "via": "client"
-    },
-    "payment_items": {
-      "collection": "payment-items",
-      "via": "client"
-    },
     "contract": {
       "model": "contract",
       "via": "client"
@@ -56,6 +48,10 @@
     "stripe_customer_id": {
       "type": "string",
       "required": true
+    },
+    "invoice": {
+      "via": "client",
+      "model": "invoice"
     }
   }
 }

@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "invoices",
+  "info": {
+    "name": "Invoice"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "invoice_id": {
+      "type": "string",
+      "required": true
+    },
+    "client": {
+      "model": "client",
+      "via": "invoice"
+    },
+    "hosted_invoice_url": {
+      "type": "string",
+      "required": true
+    },
+    "invoice_pdf": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
