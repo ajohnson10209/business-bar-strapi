@@ -24,6 +24,10 @@
     "invoice_pdf": {
       "type": "string",
       "required": true
+    },
+    "line_items": {
+      "type": "json",
+      "required": true
     }
   }
 }
