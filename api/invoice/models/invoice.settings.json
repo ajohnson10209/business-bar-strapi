@@ -28,6 +28,10 @@
     "line_items": {
       "type": "json",
       "required": true
+    },
+    "due_date": {
+      "type": "date",
+      "required": true
     }
   }
 }
