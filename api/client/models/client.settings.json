@@ -49,9 +49,9 @@
       "type": "string",
       "required": true
     },
-    "invoice": {
+    "invoices": {
       "via": "client",
-      "model": "invoice"
+      "collection": "invoice"
     }
   }
 }
