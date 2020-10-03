@@ -47,7 +47,7 @@
     },
     "stripe_customer_id": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "invoices": {
       "via": "client",

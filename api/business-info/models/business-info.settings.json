@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "business_infos",
+  "info": {
+    "name": "Business-Info"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "business_name": {
+      "type": "string",
+      "required": true
+    },
+    "business_email": {
+      "type": "email",
+      "required": true
+    },
+    "business_phone": {
+      "type": "integer"
+    }
+  }
+}
