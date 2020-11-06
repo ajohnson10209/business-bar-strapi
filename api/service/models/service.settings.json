@@ -9,11 +9,12 @@
     "timestamps": true
   },
   "attributes": {
-    "Description": {
-      "type": "text"
-    },
     "Services": {
       "type": "json"
+    },
+    "Description": {
+      "type": "richtext",
+      "required": true
     }
   }
 }
