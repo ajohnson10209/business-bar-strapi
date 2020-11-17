@@ -52,6 +52,10 @@
     "invoices": {
       "via": "client",
       "collection": "invoice"
+    },
+    "forgot_password": {
+      "via": "client",
+      "model": "forgot-password"
     }
   }
 }
