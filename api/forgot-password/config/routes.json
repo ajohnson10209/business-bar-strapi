@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/forgot-passwords",
+      "handler": "forgot-password.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/forgot-passwords/count",
+      "handler": "forgot-password.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/forgot-passwords/:id",
+      "handler": "forgot-password.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/forgot-passwords",
+      "handler": "forgot-password.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/forgot-passwords/:id",
+      "handler": "forgot-password.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/forgot-passwords/:id",
+      "handler": "forgot-password.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
