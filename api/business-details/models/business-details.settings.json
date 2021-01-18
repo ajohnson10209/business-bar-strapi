@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "business_details",
+  "info": {
+    "name": "Business-Details"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Photo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Details": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
