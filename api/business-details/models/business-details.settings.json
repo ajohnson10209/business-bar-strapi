@@ -9,7 +9,14 @@
     "timestamps": true
   },
   "attributes": {
-    "Photo": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "photo": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -18,10 +25,18 @@
         "videos"
       ],
       "plugin": "upload",
-      "required": false
+      "required": true
     },
-    "Details": {
-      "type": "richtext",
+    "photo_size": {
+      "type": "enumeration",
+      "enum": [
+        "default",
+        "thumbnail",
+        "small",
+        "medium",
+        "large"
+      ],
+      "default": "default",
       "required": true
     }
   }
