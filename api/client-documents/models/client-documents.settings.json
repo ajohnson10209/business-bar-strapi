@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "client_documents",
+  "info": {
+    "name": "Client-Documents"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "document": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "upload_date": {
+      "type": "datetime",
+      "required": true
+    },
+    "client": {
+      "model": "client",
+      "via": "client_documents"
+    }
+  }
+}

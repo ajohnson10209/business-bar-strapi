@@ -56,6 +56,10 @@
     "forgot_password": {
       "via": "client",
       "model": "forgot-password"
+    },
+    "client_documents": {
+      "via": "client",
+      "collection": "client-documents"
     }
   }
 }
