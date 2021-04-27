@@ -2,18 +2,24 @@
   "kind": "singleType",
   "collectionName": "services",
   "info": {
-    "name": "Service"
+    "name": "Service",
+    "description": ""
   },
   "options": {
     "increments": true,
-    "timestamps": true
+    "timestamps": true,
+    "draftAndPublish": false
   },
   "attributes": {
-    "Services": {
+    "Consultations": {
       "type": "json"
     },
     "Description": {
       "type": "richtext",
+      "required": true
+    },
+    "Header": {
+      "type": "string",
       "required": true
     }
   }
