@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "service_offerings",
+  "info": {
+    "name": "service-offerings",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "services": {
+      "type": "json",
+      "required": true
+    }
+  }
+}
