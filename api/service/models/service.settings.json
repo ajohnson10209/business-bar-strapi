@@ -18,9 +18,14 @@
       "type": "richtext",
       "required": true
     },
-    "Header": {
-      "type": "string",
-      "required": true
+    "Subheading1": {
+      "type": "string"
+    },
+    "SubHeading2": {
+      "type": "string"
+    },
+    "SubHeading3": {
+      "type": "string"
     }
   }
 }
